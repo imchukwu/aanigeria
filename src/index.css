@@ -36,10 +36,9 @@ ul {
 .btn:hover {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 .btn.btn-light:hover {
   background: rgb(248, 217, 15);
   color: #222;
-  transition: 0.3s;
 }
