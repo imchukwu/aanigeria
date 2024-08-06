@@ -38,3 +38,8 @@ ul {
   color: #fff;
   transition: 0.3s;
 }
+.btn-light:hover {
+  background: rgb(248, 217, 15);
+  color: #222;
+  transition: 0.3s;
+}
