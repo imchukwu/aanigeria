@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroStyles.css";
-import bgImage from "../assets/bg-image.png";
+import bgImage from "../assets/bg-images.png";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
