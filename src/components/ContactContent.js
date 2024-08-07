@@ -39,7 +39,7 @@ const Contact = () => {
         <p>
           Struggling with alcohol? You're not alone. Find support at AA. Local
           meetings offer a safe space to connect and share experiences.
-          Together, we can find recovery. Handshake_emoji #AAmeetings #recovery
+          Together, we can find recovery. #AAmeetings #recovery
         </p>
         <ul>
           <li>
