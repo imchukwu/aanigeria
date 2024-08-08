@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer2";
 import Company from "../components/Company";
+import QuizWithPreamble from "../components/QuizWithPreamble";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Company />
+      <QuizWithPreamble />
       <Footer />
     </div>
   );

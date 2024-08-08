@@ -1,0 +1,58 @@
+.quiz-with-preamble-container {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  color: #fff;
+}
+
+.preamble-section {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  flex-basis: 40%;
+  position: relative;
+  color: #fff;
+}
+.quiz-with-preamble-container .preamble-section p {
+  margin: 1.2rem 0;
+}
+
+.quiz-section {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.preamble-section button {
+  background-color: rgb(248, 217, 15);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.preamble-section button:hover {
+  background-color: rgb(248, 217, 15);
+}
+
+/* ---- media query ---- */
+
+@media (max-width: 800px) {
+  .quiz-with-preamble-container {
+    flex-direction: column;
+  }
+  .quiz-section {
+    flex-basis: 100%;
+    margin: 20px;
+    order: 2;
+  }
+  .preamble-section {
+    flex-basis: 100%;
+  }
+}
