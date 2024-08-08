@@ -7,7 +7,7 @@
 
 .hero-img::before {
   content: "";
-  background-image: url("../assets/meeting-image.png");
+  background-image: url("../assets/meeting-img.png");
   background-size: cover;
   background-position: center top;
   height: 100%;
