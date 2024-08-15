@@ -3,18 +3,18 @@ import "./TableStyles.css";
 
 const ScheduleTable = () => {
   const scheduleData = [
-    // {
-    //   day: "Tuesday",
-    //   topic: "Tuesday Meeting",
-    //   time: "20:00 West Central Africa",
-    //   meetingType: "Online",
-    //   contact: "email@email.com"
-    // },
+    {
+      day: "Tuesday",
+      topic: "Tuesday Meeting",
+      time: "8:00PM",
+      meetingType: "Online",
+      contact: "email@email.com",
+    },
     {
       day: "Thursday",
       topic: "Thursday Meeting",
       time: "5:30PM",
-      meetingType: "Physical",
+      meetingType: "Physical - Abuja",
       contact: "email@email.com",
     },
     {
@@ -27,24 +27,24 @@ const ScheduleTable = () => {
     {
       day: "Thursday",
       topic: "Online Meeting for Men",
-      time: "7:00PM",
-      meetingType: "Physical",
+      time: "8:00PM",
+      meetingType: "Online",
       contact: "email@email.com",
     },
-    // {
-    //   day: "Saturday",
-    //   topic: "Steps and Traditions",
-    //   time: "20:00 West Central Africa",
-    //   meetingType: "Online",
-    //   contact: "email@email.com"
-    // },
-    // {
-    //   day: "Sunday",
-    //   topic: "Sunday Meeting",
-    //   time: "11:00 West Central Africa",
-    //   meetingType: "Online",
-    //   contact: "email@email.com"
-    // },
+    {
+      day: "Saturday",
+      topic: "Saturday Meeting",
+      time: "8:00PM",
+      meetingType: "Online",
+      contact: "email@email.com",
+    },
+    {
+      day: "Sunday",
+      topic: "Sunday Meeting",
+      time: "11:00AM",
+      meetingType: "Online",
+      contact: "email@email.com",
+    },
   ];
 
   return (
