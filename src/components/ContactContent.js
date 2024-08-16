@@ -44,11 +44,7 @@ const Contact = () => {
         <ul>
           <li>
             <img src={mail_icon} alt="" />
-            info@aanigeria.com
-          </li>
-          <li>
-            <img src={phone_icon} alt="" />
-            +23488888888
+            info@aa-nigeria.com
           </li>
         </ul>
       </div>
